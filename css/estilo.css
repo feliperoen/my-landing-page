@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato/Lato-Regular.ttf);
+}
+
+Body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#top {
+
+    background-color: rgb(251, 234, 86);
+
+
+}
+
+#header {
+    width: 40%;
+    padding: 25px;
+
+
+    
+}
+
+#questionnaire {
+
+    font-size: 0.7em;
+    width: 40%; 
+    padding: 25px;
+
+    input {
+        border-radius: 20px;
+        border: 0;
+        margin: 5px 0px 10px 0px;
+        background-color: white;
+        width: 99%;
+        height: 25px;
+        
+
+    }
+
+    select {
+        border-radius: 20px;
+        border: 0;
+        margin: 5px 0px 10px 0px;
+        background-color: white;
+        width: 100%;
+        height: 25px;
+
+
+    }
+
+    button {
+        border-radius: 20px;
+        color: aliceblue;
+        border: 0;
+        margin: 5px 0px 10px 0px;
+        background-color: #0e37cd;
+        width: 100%;
+        height: 25px;
+        font-weight: 800;
+    }
+}
+
+#transition {
+    background-color: rgb(78, 211, 255);
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 3.5em;
+
+    h1 {
+        margin: 0;
+
+    }
+
+}
+
+#stem {
+    background-color: rgb(255, 166, 0);
+
+    h1 {
+        margin: 0;
+
+    }
+}
+
+#company{
+    background-color:lightgrey;
+}
+
+#footer {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
