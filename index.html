@@ -14,28 +14,28 @@
     <div id="top">
 
         <div id="header">
-            <img src="img/logo_siteheader.png" width="60%" alt="logo" >
+            <img src="img/logo_header.png" width="60%" alt="logo" >
 
             <h1 style="font-size: 2em;">Robótica Educacional</h1>
             <p style="font-size: 1.3em;">Implementação de robótica educacional nas escolas</p>
 
-            <img src="img/robot_image.png" width="90%" alt="robot">
+            <img src="img/robot_image.png" width="65%" alt="robot">
         </div>
         
-        <form action="processa.html" method="get">
-            <div id="questionnaire">
+        <div id="questionnaire">
+            <form action="processa.html" method="get">
 
                 <label for="name">Nome</label><br>
-                <input type="text" name="name"id="name"><br>
+                <input class="form_input" type="text" name="name"id="name"><br>
                 
                 <label for="email">E-mail</label><br>
-                <input type="text" name="email"id="email"><br>
+                <input class="form_input" type="text" name="email" id="email"><br>
 
                 <label for="escola">Escola</label><br>
-                <input type="text" placeholder="Escola que atua" name="school" id="school"><br>
+                <input class="form_input" type="text" placeholder="Escola que atua" name="school" id="school"><br>
 
                 <label for="position">Qual é seu cargo?</label><br>
-                <select name="position" id="position">
+                <select class="form_select" name="position" id="position">
                     <option value="manager">Diretor(a)</option>
                     <option value="coordinator">Coordenador(a)</option>
                     <option value="teacher">Professor(a)</option>
@@ -44,14 +44,14 @@
                 </select><br>
 
                 <label for="teachRobotics?">Sua escola já ensina robótica?</label><br>
-                <select name="teachRobotics?">
+                <select class="form_select" name="teachRobotics?">
                     <option value="no">Não</option>
                     <option value="yes">Sim</option>
                 </select><br>
 
-                <button type="submit">ENVIAR</button><br>
-            </div>
-        </form>
+                <button class="form_button" type="submit">ENVIAR</button><br>
+            </form>
+        </div>
     </div>
 
 
