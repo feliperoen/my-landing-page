@@ -11,12 +11,10 @@
 </head>
 
 <body>
-
     <main>
-        <header id="top">
-            <main>
-                <div id="header">
-                    <img src="img/logo_header.webp" width="100%" alt="logo" >
+        <header class="container">
+                <div class="esquerda"  id="header">
+                    <img src="img/logo_header.webp" width="70%" alt="logo" >
 
                     <h1>Robótica Educacional</h1>
                     <p>Implemente de robótica educacional na sua escola</p>
@@ -24,7 +22,7 @@
                     <img src="img/robot_image.webp" width="100%" alt="robot">
                 </div>
                 
-                <div id="questionnaire">
+                <div class="direita" id="questionnaire">
                     <form action="processa.html" method="get">
 
                         <label for="name">Nome</label><br>
@@ -54,35 +52,42 @@
                         <button class="form_button" type="submit">ENVIAR</button><br>
                     </form>
                 </div>
-            </main>
         </header>
     </main>
 
 
-    <section id="transition">
-        <h1>Destaque sua escola e torne-a um sinônimo de inovação e tecnologia</h1>
+    <section class="cyan-background">
+        <div id="transition">
+            <h1>Destaque <span>sua escola</span> e torne-a uma referência em inovação e tecnologia</h1>
+        </div>
     </section>
 
-    <section id="stem">   
-        
-        <img class="float-left-img" src="img/stem-students.webp" width="300" alt="students">
-        <img class="divisor-format" src="img/Untitled.webp" alt="page-divisor">
-        
-            <h1>Conheça uma nova forma de educar</h1>
-            <p>A robótica educacional desperta a curiosidade, incentiva a criatividade e 
-                desenvolve habilidades que vão muito além da sala de aula. 
-                Por meio de atividades práticas, os estudantes aprendem conceitos
-                de ciência, tecnologia, engenharia e matemática de forma integrada, 
-                enquanto fortalecem o pensamento crítico, o raciocínio lógico e o trabalho em equipe.
-                Ofereça uma experiência de aprendizagem moderna, capaz de engajar os alunos 
-                e posicionar sua escola como referência em educação tecnológica.
-            </p>
-            
+    <section class="orange-background">        
+        <div class="container" id="stem">
+            <div class="esquerda" id="stem-students">
+                <img class="float-left-img" src="img/stem-students.webp" width="100%" alt="students">
+            </div>
+    
+            <div class="direita" id="stem-introduction">
+                <img class="divisor-format" src="img/page-divisor.webp" alt="page-divisor">
+                
+                <h1>Conheça uma nova forma de educar</h1>
+                <p>A robótica educacional desperta a curiosidade, incentiva a criatividade e 
+                    desenvolve habilidades que vão muito além da sala de aula. 
+                    Por meio de atividades práticas, os estudantes aprendem conceitos
+                    de ciência, tecnologia, engenharia e matemática de forma integrada, 
+                    enquanto fortalecem o pensamento crítico, o raciocínio lógico e o trabalho em equipe.
+                    <br><br>
+                    <span>Ofereça uma experiência de aprendizagem moderna, capaz de engajar os alunos 
+                    e posicionar sua escola como referência em educação tecnológica.</span>
+                </p>
+            </div>            
+        </div>
     </section>
 
-    <section id="stem2">        
-            <img src="img/STEM.webp" alt="STEM" width="400">
-
+    <section class="container">       
+        
+        <div class="esquerda" id="stem-advantages">
             <h1>Que o ensino de robótica nas escolas é uma tendência você já sabe, mas como ele pode ajudar sua escola?</h1>
             <p>
                 A abordagem STEM (Ciência, Tecnologia, Engenharia e Matemática) integra diferentes áreas 
@@ -91,28 +96,43 @@
                 desenvolvem competências como raciocínio lógico, pensamento crítico, criatividade, 
                 colaboração e autonomia, tornando o aprendizado mais significativo e conectado ao mundo 
                 em que vivem.          
-                
+                <br><br>
                 Prepare sua escola para levar a Educação STEM à sala de aula 
-                com uma metodologia alinhada à Base Nacional Comum Curricular (BNCC).
+                com uma <span>metodologia alinhada à Base Nacional Comum Curricular (BNCC)</span>.
             </p>
+        </div>
+
+        <div class="direita" id="stem-logo">
+            <img src="img/STEM.webp" alt="STEM" width="100%">
+        </div>
+
     </section>
 
-    <section id="company">
-        <h1>Agora é o momento de inovar e a Robot Society pode ajudar a sua instituição</h1>
-        <p>
-            Nossa missão é tornar a robótica acessível a todas as escolas e professores. 
-            Por isso, oferecemos desde planos de aula prontos para aplicação, 
-            ideais para quem deseja iniciar rapidamente, até uma Formação Completa em Robótica Pedagógica,
-            que prepara educadores para u   tilizar a robótica como uma metodologia de ensino 
-            em diferentes disciplinas e níveis de ensino. 
-            Independentemente do ponto de partida, você encontrará conteúdos, materiais e suporte 
-            para levar experiências de aprendizagem mais criativas, práticas e significativas aos seus alunos.
-        </p>
+    <section class="lightgray-background">
+        <div class="container" id="company">
+            <h1>Agora é o momento de inovar e a Robot Society pode ajudar a sua instituição</h1>
+            <p>
+                Nossa missão é tornar a robótica acessível a todas as escolas e professores. 
+                Por isso, oferecemos desde planos de aula prontos para aplicação, 
+                ideais para quem deseja iniciar rapidamente, até uma Formação Completa em Robótica Pedagógica,
+                para educadoresque desejam utilizar a robótica como uma metodologia de ensino 
+                em diferentes disciplinas e níveis de ensino. 
+                Independentemente do ponto de partida, você encontrará conteúdos, materiais e suporte 
+                para levar experiências de aprendizagem mais criativas, práticas e significativas aos seus alunos.
+            </p>
+        </div>
     </section>
 
-    <footer id="footer">
-        <img src="img/logo_footer.webp" width="200" alt="logo">
-        <p>© Copyright | Robot Society | Todos os direitos reservados.</p>
+    <footer class="black-background">        
+        <div class="container">
+            <div class="esquerda" id="logo-footer">
+                <img src="img/logo_footer.webp" width="400" alt="logo">
+            </div>
+            <div class="direita" id="footer-notes">
+                <p>© Copyright | Robot Society | Todos os direitos reservados.</p>
+            </div>
+        </div>
+
     </footer>
     
 </body>

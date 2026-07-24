@@ -1,136 +1,189 @@
-@font-face {
-    font-family: Lato;
-    src: url(fonts/Lato/Lato-Regular.ttf);
-}
-
 Body {
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
-#top {
 
-    background-color: rgb(251, 234, 86);
-    padding: 5% 15%;
 
-    clear:both;
-    display: table;
-
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-#header {
-    width: 45%; 
-    float: left;
-    
+.esquerda{
+    flex: 1 1 50%;
+}
+
+.direita{
+    flex: 1 1 30%;
+}
+
+
+main{
+    background-color: rgb(251, 234, 86);
+}
+
+
+#header {    
+    margin: 60px 30px;
+ 
     img{
         display: block;
         margin: 0 auto;
     }
-     
+
+    h1{
+        font-size: 2.5em;
+        margin-top: 75px;
+        margin-bottom: 40px;
+    }
+    
+    p{
+        font-size: 2em;
+    }
 }
 
 #questionnaire {
 
-    float: right;
-    margin-top: 12%;
-    
-    width: 45%;
-    min-width: 240px;
-    font-size: 0.8em;
+    padding: 10% 60px;
+    font-size: 1.1em;
 }
 
 .form_input{
-    border-radius: 20px;
+    border-radius: 25px;
     border: 0;
-    height: 30px;
+    height: 50px;
     width: 99%;
-    margin: 5px 0px 10px 0px;
+    margin: 10px 0px 20px 0px;
     background-color: white;
+    font-size: 1em;
+
 }
 
 
 .form_select{
-    border-radius: 20px;
+    border-radius: 30px;
     border: 0;
-    height: 30px;
+    height: 50px;
     width: 100%;
-    margin: 5px 0px 10px 0px;
+    margin: 10px 0px 15px 0px;
     background-color: white;
+    font-size: 1em;
 }
 
 .form_button{
-    border-radius: 20px;
+    border-radius: 40px;
     border: 0;
-    height: 35px;
+    height: 70px;
     width: 100%;
     background-color: #11AACC;
     color: white;
     font-weight: 999;
     margin: 10px 0px 10px 0px;
+    font-size: 1em;
+
 }
 
 .float-left-img{
     float: left;
-    margin: 20px;
+    margin-right: 20px;
 }
 
-.divisor-format
-{
-    margin-top: 20px;
-}
-            
-#transition {
+
+.cyan-background{
     background-color: rgb(78, 211, 255);
+
+}            
+
+#transition {
     text-align: center;
-    margin: 0;
-    padding: 30px;    
-}
+    padding: 80px;
+    font-size: 1.3em;
 
-#stem {
-    background-color: rgb(255, 166, 0);
-    position: relative; 
-    clear: both;
-    display: table;
-}
-
-#stem2{
-    position: relative;
-    background-color: white;
-    clear: both;
-    display: table;
-    padding: 100px 40px;
-
-    img{
-        float: right;
-        margin: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    span{
+        color: white;
     }
+
+}
+
+.orange-background{
+    background-color: rgb(255, 166, 0);
+
+}
+
+#stem-students{
+    margin: 0 30px;
+}
+
+#stem-introduction{
+    padding: 40px 60px;
+    
+
+    p{
+        font-size: 1.2em;
+    }
+
+    h1{
+        color: white;
+    }
+
+    span{
+        font-weight: 800;
+    }
+}
+
+
+#stem-advantages{
+    font-size: 1.2em;
+
+    h1{
+        color: #6940c1;
+    }
+
+    span{
+        font-weight: 800;
+        font-size: 1.1em;
+    }
+
+    margin: 50px;
+   
+}
+
+#stem-logo{
+        margin: 50px 40px;
+}
+
+
+.lightgray-background{
+    background-color: #e5e5e5;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
 }
 
 #company{
-    background-color:lightgrey;
-    padding: 20px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    font-size: 1.5em;
+
+    h1{
+        margin: 50px;
+    }
+
+    p{
+        margin: 50px;
+    }
 }
 
-#footer {
-    background-color: rgb(44, 44, 44);
-    font-size: 0.7em;
-    color: white;
-    padding: 10px;
-    margin: 0;
-    position: relative;
-    
-    img{
-        position: relative;
-        left: 25%;
-    }
-    
-    
-    p{
-        position: absolute;
-        top: 10px;
-        left: 55%;    
 
-    }
+
+.black-background{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-size: 1.2em;
+    padding: 20px;
 }
